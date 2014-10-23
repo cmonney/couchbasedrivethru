@@ -65,7 +65,12 @@
         public ActionResult Delete(string id)
         {
             CustomerRepository.Delete(id);
-            return RedirectToAction("Index");
+            return RedirectToAction("Deleted");
+        }
+
+        public ActionResult Deleted()
+        {
+            return View();
         }
     }
 }

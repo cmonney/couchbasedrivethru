@@ -1,3 +1,6 @@
 packages/*
 CouchbaseDriveThru/bin/*
 CouchbaseDriveThru/obj/*
+CouchbaseDriveThru.v12.suo
+.gitignore
+*.suo
